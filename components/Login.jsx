@@ -8,7 +8,7 @@ export default function Login() {
   return (
     <View>
       <Image
-        source={require("./../assets/images/login.jpeg")}
+        source={require("./../assets/images/background.png")}
         style={{
           width: "100%",
           height: 520,
@@ -21,6 +21,7 @@ export default function Login() {
             fontFamily: "outfit-bold",
             textAlign: "center",
             marginTop: 10,
+            fontWeight: "bold",
           }}
         >
           AI Travel Planner
@@ -30,13 +31,13 @@ export default function Login() {
           style={{
             fontFamily: "outfit-medium",
             fontSize: 17,
-            textAlign: "center",
+            textAlign: "left",
             color: Colors.GRAY,
             marginTop: 20,
           }}
         >
-          Discover your next adventure effortlessly. Personalized itineraries at
-          your fingertips. Travel smarter with AI-driven insights."
+          Discover your next adventure effortlessly. Lets go to the next trip
+          with AI Travel Planner and get inspired.
         </Text>
 
         <TouchableOpacity
